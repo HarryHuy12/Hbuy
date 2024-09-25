@@ -1,0 +1,192 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing :border-box;
+    font-family: "Poppins";
+}
+body{
+    min-height : 100vh;
+}
+header{
+    top : 0;
+    left: 0;
+    width : 100%;
+    padding : 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size : 40px;
+    color : black;
+    text-decoration: none;
+    font-weight : 700;
+}
+.navbar{
+    a{
+        font-size : 18px;
+        color : black;
+        text-decoration: none;
+        font-weight : 500;
+        margin-left : 30px;
+    }
+}
+.navbar a:hover{
+    color : grey;
+}
+.active{
+    height : 900px;
+    padding : 25px;
+}   
+.but{
+    margin : 20px;
+    font-size: 40px;
+    border : none;
+    margin-left : 50px;
+    a{
+        color : black;
+    }
+}
+.dang{
+    background-color: white;
+    border: none;
+}
+.dang:hover{
+    background-color: white;
+}
+.dang a:hover{
+    transition : 0.1s;
+    color : grey;
+}
+.box{
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+}
+.para{
+    font-size : 25px;
+    font-weight: 500;
+}
+.tit{
+    font-size : 70px;
+    font-weight : 1000;
+}
+.shop{
+    background-color: #000;
+    border-radius: 100px;
+    align-items: center;
+    flex-direction: column;
+    width : 150px;
+    height : 38px;
+    p{
+        color : white;
+        font-size : 27px;
+        font-weight: 500;
+    }
+}
+.shop:hover{
+    transition : 0.2s;
+    background-color: darkslategray;
+}
+.tieude{
+    h2{
+        margin : 25px;
+    }
+}
+.p{
+    font-size: 20px;
+    font-weight : 600;
+}
+.the{
+    display : flex;
+    justify-content: space-around;
+    
+    margin-top : 20px;
+}
+.text{
+    font-weight : 500;
+}
+.card{
+    margin : 15px;
+    width : 200px;
+    transition : 0.4s;
+    box-shadow :0px 14px 28px rgba(0, 0, 0, 0.25);
+    cursor : pointer;
+}
+.card:hover{
+    box-shadow : 0 3px 6px rgba(0,0,0,0.16); 
+    transform: translate(0,-8px);
+    cursor : pointer;
+}
+.text1 a:hover{
+    color :burlywood;
+    transition : 0.2s;
+    cursor : pointer;
+}
+.text1 a{
+    text-decoration: none;
+    color : black;
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    width : 100%;
+    padding : 70px 30px 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    text-decoration: none;
+    padding : 10px;
+    background-color: white;
+    margin : 10px;
+    border-radius: 40%;
+}
+.social a i{
+    font-size : 2em;
+    color : black;
+    opacity : 0.9;
+}
+.social a:hover{
+    background-color : #111;
+    transition: 0.5s;
+}
+.social a:hover i{
+    color : white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin : 30px 0;
+}
+.footerNav ul{
+    display : flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color : white;
+    margin : 20px;
+    text-decoration: none;
+    font-size : 1.3rem;
+    opacity : 0.7;
+    transition : 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity : 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding : 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color : white;
+}
+.design{
+    opacity : 0.7;
+    text-transform: uppercase;
+    font-weight : 400;
+}
